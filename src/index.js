@@ -40,27 +40,27 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   {myList}
 // </div>
 
-const myName = "paddy";
-const mainDiv = <div>
+// const myName = "paddy";
+// const mainDiv = <div>
 
-  <p>This is the first paragraph, my name is {myName}</p>
-  <p>This is the second paragraph</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>  
-  </ul>
-  <p> The total of 7 + 9 is {7 + 9}</p>
-</div>
+//   <p>This is the first paragraph, my name is {myName}</p>
+//   <p>This is the second paragraph</p>
+//   <ul>
+//     <li>Item 1</li>
+//     <li>Item 2</li>
+//     <li>Item 3</li>  
+//   </ul>
+//   <p> The total of 7 + 9 is {7 + 9}</p>
+// </div>
 
 
-root.render(mainDiv);
+//root.render(mainDiv);
 
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 
 
