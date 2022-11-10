@@ -6,11 +6,12 @@ import Greeting from './components/Greeting';
 function App() {
   return (
     <div className="App">
+      <p>The greeting is...</p>
 
 
 
 
-      <Greeting />
+      <Greeting name="Paddy" age="21" />
 
 
 
